@@ -1,1 +1,3 @@
 # FPGA_ADC_Project
+
+The main objective was to create a voltmeter that displays, via VGA, the voltage at the input within a range of 0.00V to 3.30V. To achieve this, a capacitor was also used to define the sampling speed, based on its count and frequency, along with resistors. Subsequently, the received ones by the blocks are translated into the input voltage. Only structural language was employed for the development of the work, except for the structural unit of the D flip flop where a behavioral description was used. The functions of each block and hierarchy, as well as design criteria for testing and descriptive tables on the synthesis and implementation of the programming, will be described next.
